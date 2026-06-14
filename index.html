@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vizinho Amigo: protótipo educativo de rede comunitária para apoio em compras essenciais.">
+  <title>Vizinho Amigo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <main id="conteudo">
+    <section id="tela-inicial" class="screen screen-home active" aria-labelledby="titulo-principal">
+      <header class="site-header">
+        <div class="container header-grid">
+          <a class="site-brand" href="#inicio" data-go-home aria-label="Voltar para o início do site">
+            <img src="img/logo-vizinho-amigo.svg" alt="" aria-hidden="true">
+            <strong>Vizinho <span>Amigo</span></strong>
+          </a>
+
+          <nav class="site-menu" aria-label="Navegação do site">
+            <a href="#inicio">Início</a>
+            <a href="#como-funciona">Como funciona</a>
+            <a href="#escolha-perfil">Criar lista</a>
+            <a href="#escolha-perfil">Ver listas</a>
+            <button type="button" data-open-tab="mensagens">Mensagens</button>
+            <a href="#sobre-home">Sobre</a>
+          </nav>
+        </div>
+      </header>
+
+      <section id="inicio" class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="prototype-label">Concurso Agrinho 2026</p>
+            <h1 id="titulo-principal">Vizinho <span>Amigo</span></h1>
+            <p class="slogan">Solidariedade que chega à sua porta.</p>
+            <p class="intro">O Vizinho Amigo é um protótipo educativo que simula uma rede de apoio entre moradores da mesma comunidade. A proposta ajuda quem vive no campo ou em regiões afastadas a organizar listas de compras e necessidades, conectando essas listas a vizinhos voluntários que podem ajudar no deslocamento até a cidade.</p>
+            <div class="hero-actions">
+              <button class="primary-action" type="button" data-role="ajuda">
+                <img src="img/icon-ajuda.svg" alt="" aria-hidden="true">
+                Criar lista de compras
+              </button>
+              <button class="secondary-action" type="button" data-role="voluntario">
+                <img src="img/icon-voluntario.svg" alt="" aria-hidden="true">
+                Quero ajudar como vizinho voluntário
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Resumo visual do projeto">
+            <img src="img/logo-vizinho-amigo.svg" alt="Logo do Vizinho Amigo" class="hero-logo">
+            <div class="visual-card">
+              <img src="img/icon-compras.svg" alt="" aria-hidden="true">
+              <span>Compras e necessidades</span>
+            </div>
+            <div class="visual-card">
+              <img src="img/icon-voluntario.svg" alt="" aria-hidden="true">
+              <span>Deslocamento até a cidade</span>
+            </div>
+            <div class="visual-card">
+              <img src="img/icon-coracao.svg" alt="" aria-hidden="true">
+              <span>Confiança comunitária</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="como-funciona" class="section-block">
+        <div class="container">
+          <div class="section-heading">
+            <p class="prototype-label">Como funciona</p>
+            <h2>Três passos simples para aproximar pessoas</h2>
+          </div>
+
+          <div class="cards-grid">
+            <article class="info-card">
+              <img src="img/icon-lista.svg" alt="" aria-hidden="true">
+              <h3>Crie sua lista</h3>
+              <p>O morador informa os itens de que precisa, como alimentos, remédios, materiais de construção ou produtos essenciais.</p>
+            </article>
+            <article class="info-card">
+              <img src="img/icon-local.svg" alt="" aria-hidden="true">
+              <h3>Um vizinho conhecido ajuda</h3>
+              <p>Vizinhos voluntários da própria comunidade visualizam as listas e podem aceitar ajudar quando forem até a cidade.</p>
+            </article>
+            <article class="info-card">
+              <img src="img/icon-coracao.svg" alt="" aria-hidden="true">
+              <h3>Confiança fortalece a comunidade</h3>
+              <p>O sistema simula vínculos comunitários, histórico de ajuda e rank de confiança para incentivar segurança, responsabilidade e cooperação.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="escolha-perfil" class="section-block profile-choice-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="prototype-label">Escolha seu perfil</p>
+            <h2>Use o protótipo para criar listas ou acompanhar listas da comunidade</h2>
+          </div>
+
+          <div class="role-card-grid" aria-label="Escolha seu perfil">
+            <article class="role-card">
+              <img src="img/icon-ajuda.svg" alt="" aria-hidden="true">
+              <h3>Criar lista de compras e necessidades</h3>
+              <p>Monte uma lista fictícia de itens que precisam ser comprados ou retirados na cidade.</p>
+              <button class="primary-action" type="button" data-role="ajuda">Criar lista de compras</button>
+            </article>
+            <article class="role-card">
+              <img src="img/icon-voluntario.svg" alt="" aria-hidden="true">
+              <h3>Ver listas da comunidade</h3>
+              <p>Veja listas simuladas de moradores próximos e ofereça apoio como vizinho voluntário.</p>
+              <button class="secondary-action" type="button" data-role="voluntario">Ver listas da comunidade</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-home" class="section-block about-section">
+        <div class="container about-grid">
+          <div>
+            <p class="prototype-label">Sobre o projeto</p>
+            <h2>Solidariedade, tecnologia e sustentabilidade social</h2>
+          </div>
+          <div>
+            <p>O Vizinho Amigo foi criado para o Concurso Agrinho 2026 e mostra como a tecnologia pode incentivar cuidado comunitário, acesso a alimentos e solidariedade entre campo, cidade e comunidade.</p>
+            <p>Muitas famílias que vivem no campo ou em comunidades mais afastadas precisam se deslocar até a cidade para comprar alimentos, remédios, materiais de construção, itens de higiene e outros produtos essenciais. Esse deslocamento pode ser difícil, caro ou demorado, principalmente para idosos, pessoas com mobilidade reduzida ou famílias sem transporte próprio.</p>
+            <p>O Vizinho Amigo propõe uma forma organizada e segura de aproximar moradores da mesma comunidade, permitindo que pessoas conhecidas possam se ajudar de maneira mais formal, transparente e solidária.</p>
+            <p><strong>Tema:</strong> Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="container">
+          <div class="section-heading">
+            <p class="prototype-label">Segurança comunitária</p>
+            <h2>Confiança entre vizinhos</h2>
+            <p>Para evitar fraudes e fortalecer o vínculo comunitário, o protótipo simula um rank de confiança. Esse rank poderia considerar histórico de ajuda, avaliações da comunidade e confirmação por pessoas conhecidas. A proposta é que a tecnologia apoie relações reais de confiança, não substitua o cuidado e a responsabilidade entre moradores.</p>
+          </div>
+
+          <div class="cards-grid">
+            <article class="info-card">
+              <img src="img/icon-coracao.svg" alt="" aria-hidden="true">
+              <h3>Rank de confiança</h3>
+              <p>Simula um indicador educativo baseado em vínculo comunitário e histórico de ajuda.</p>
+            </article>
+            <article class="info-card">
+              <img src="img/icon-perfil.svg" alt="" aria-hidden="true">
+              <h3>Cadastro comunitário</h3>
+              <p>Em uma versão real, poderia depender de validação cuidadosa da comunidade.</p>
+            </article>
+            <article class="info-card">
+              <img src="img/icon-lista.svg" alt="" aria-hidden="true">
+              <h3>Avaliação após a entrega</h3>
+              <p>Propõe registrar, de forma simulada, histórico de ajuda e avaliação após cada lista atendida.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <strong>Vizinho Amigo</strong>
+          <span>Concurso Agrinho 2026</span>
+          <span>Tema: Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.</span>
+          <span>Protótipo educativo sem coleta de dados reais.</span>
+        </div>
+      </footer>
+    </section>
+
+    <section id="aplicativo" class="screen app-view" aria-label="Site interativo Vizinho Amigo">
+      <header class="site-header app-site-header">
+        <div class="container header-grid">
+          <button type="button" class="site-brand brand-button" data-go-home aria-label="Voltar para o início do site">
+            <img src="img/logo-vizinho-amigo.svg" alt="" aria-hidden="true">
+            <div>
+              <strong>Vizinho <span>Amigo</span></strong>
+            <p id="modo-atual" class="mode-text">Modo lista</p>
+            </div>
+          </button>
+
+          <nav class="site-menu app-menu" aria-label="Navegação da área interativa">
+            <button type="button" id="btn-sair" class="menu-button">Início</button>
+            <button type="button" class="nav-button active" data-tab="ajuda">Criar lista</button>
+            <button type="button" class="nav-button" data-tab="voluntario">Listas</button>
+            <button type="button" class="nav-button" data-tab="mensagens">Mensagens</button>
+            <button type="button" class="nav-button" data-tab="perfil">Perfil</button>
+            <button type="button" class="nav-button" data-tab="sobre">Sobre</button>
+          </nav>
+        </div>
+      </header>
+
+      <div class="container content-area">
+        <section id="aba-ajuda" class="tab-panel active" aria-labelledby="titulo-ajuda">
+          <div class="panel-heading">
+            <p class="prototype-label">Lista simulada</p>
+            <h2 id="titulo-ajuda">Criar lista de compras e necessidades</h2>
+            <p class="helper-text">Adicione itens que precisam ser comprados ou retirados na cidade. Use informações fictícias e não informe dados pessoais reais.</p>
+          </div>
+
+          <div id="pedido-formulario" class="help-layout">
+            <div class="form-panel">
+              <form id="form-item" class="item-form">
+                <label for="item-input">O que precisa entrar na lista?</label>
+                <div class="input-row">
+                  <input id="item-input" name="item" type="text" autocomplete="off" placeholder="Ex.: arroz, remédio, cimento, sabonete...">
+                  <button type="submit">Adicionar</button>
+                </div>
+              </form>
+
+              <button id="btn-enviar-pedido" class="primary-action full" type="button" disabled>Enviar lista</button>
+            </div>
+
+            <div class="summary-panel">
+              <section class="list-box" aria-labelledby="titulo-lista">
+                <h3 id="titulo-lista">
+                  <img src="img/icon-lista.svg" alt="" aria-hidden="true">
+                  Sua lista
+                </h3>
+                <ul id="lista-compras" class="shopping-list" aria-live="polite"></ul>
+                <p id="lista-vazia" class="empty-state">Nenhum item adicionado ainda.</p>
+              </section>
+
+              <section class="contribution-box" aria-labelledby="titulo-contribuicao">
+                <div>
+                  <h3 id="titulo-contribuicao">Contribuição simbólica</h3>
+                  <p>A contribuição é apenas uma simulação educativa e não representa transação financeira pelo site.</p>
+                </div>
+                <label class="switch-line">
+                  <input id="contribuicao-toggle" type="checkbox">
+                  Quero simular uma ajuda em R$
+                </label>
+                <div id="campo-contribuicao" class="money-field hidden">
+                  <label for="contribuicao-valor">Valor simbólico em R$</label>
+                  <input id="contribuicao-valor" type="number" min="0" step="1" value="10">
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div id="pedido-confirmado" class="confirmation hidden" role="status" aria-live="polite">
+            <img src="img/icon-coracao.svg" alt="" aria-hidden="true">
+            <h2>Lista enviada!</h2>
+            <p>Os vizinhos voluntários da comunidade foram avisados.</p>
+            <button id="btn-novo-pedido" class="secondary-action full" type="button">Criar nova lista</button>
+          </div>
+        </section>
+
+        <section id="aba-voluntario" class="tab-panel" aria-labelledby="titulo-voluntario">
+          <div class="panel-heading">
+            <p class="prototype-label">Rede de apoio</p>
+            <h2 id="titulo-voluntario">Listas da comunidade</h2>
+            <p class="helper-text">Listas fictícias para demonstrar como vizinhos conhecidos poderiam ajudar quando fossem até a cidade.</p>
+          </div>
+          <div id="pedidos-voluntario" class="request-grid"></div>
+        </section>
+
+        <section id="aba-mensagens" class="tab-panel panel-card" aria-labelledby="titulo-mensagens">
+          <div class="panel-heading">
+            <p class="prototype-label">Chat simulado</p>
+            <h2 id="titulo-mensagens">Mensagens</h2>
+          </div>
+          <div id="chat-lista" class="chat-list" aria-live="polite"></div>
+          <form id="form-mensagem" class="chat-form">
+            <label for="mensagem-input">Escreva sua mensagem</label>
+            <div class="input-row">
+              <input id="mensagem-input" type="text" autocomplete="off" placeholder="Digite uma mensagem simulada">
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+        </section>
+
+        <section id="aba-perfil" class="tab-panel panel-card" aria-labelledby="titulo-perfil">
+          <div class="panel-heading">
+            <p class="prototype-label">Dados fictícios</p>
+            <h2 id="titulo-perfil">Meu perfil educativo</h2>
+            <p class="helper-text">O Vizinho Amigo é um protótipo educativo e não coleta dados sensíveis, como CPF, telefone, endereço completo, dados bancários ou valores reais.</p>
+          </div>
+          <div class="profile-list">
+            <p><strong>Nome de exibição:</strong> Dona Maria Silva</p>
+            <p><strong>Tipo de usuário:</strong> <span id="perfil-tipo">Moradora que cria listas</span></p>
+            <p><strong>Região/comunidade:</strong> Comunidade Jardim Esperança</p>
+            <p><strong>Acessibilidade:</strong> Letras legíveis, botões grandes e bom contraste</p>
+            <p><strong>Rank de confiança:</strong> Alto (simulado)</p>
+            <p><strong>Ajudas realizadas:</strong> 12 registros fictícios</p>
+            <p><strong>Cadastro comunitário:</strong> Validado pela comunidade (simulação)</p>
+          </div>
+        </section>
+
+        <section id="aba-sobre" class="tab-panel panel-card" aria-labelledby="titulo-sobre">
+          <div class="panel-heading">
+            <p class="prototype-label">Agrinho 2026</p>
+            <h2 id="titulo-sobre">Sobre o projeto</h2>
+          </div>
+          <p>O Vizinho Amigo nasceu da realidade de moradores do campo e comunidades afastadas, onde ir até a cidade pode exigir tempo, dinheiro e transporte. O projeto propõe uma rede de cooperação em que moradores criam listas de compras e necessidades, e vizinhos voluntários podem ajudar de forma organizada, segura e solidária.</p>
+          <p>As listas podem envolver alimentos, remédios, materiais de construção, produtos de higiene e outros itens necessários no dia a dia.</p>
+          <p><strong>Tema:</strong> Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.</p>
+          <p>O projeto se relaciona ao tema "Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente" ao mostrar que comunidades fortes, solidárias e organizadas também fazem parte de um futuro sustentável.</p>
+        </section>
+      </div>
+
+      <nav class="bottom-nav" aria-label="Navegação principal no celular">
+        <button type="button" class="nav-button active" data-tab="ajuda">
+          <img src="img/icon-compras.svg" alt="" aria-hidden="true">
+          <span>Lista</span>
+        </button>
+        <button type="button" class="nav-button" data-tab="voluntario">
+          <img src="img/icon-local.svg" alt="" aria-hidden="true">
+          <span>Listas</span>
+        </button>
+        <button type="button" class="nav-button" data-tab="mensagens">
+          <img src="img/icon-mensagem.svg" alt="" aria-hidden="true">
+          <span>Mensagens</span>
+        </button>
+        <button type="button" class="nav-button" data-tab="perfil">
+          <img src="img/icon-perfil.svg" alt="" aria-hidden="true">
+          <span>Perfil</span>
+        </button>
+        <button type="button" class="nav-button" data-tab="sobre">
+          <img src="img/icon-coracao.svg" alt="" aria-hidden="true">
+          <span>Sobre</span>
+        </button>
+      </nav>
+
+      <footer class="site-footer app-footer">
+        <div class="container footer-grid">
+          <strong>Vizinho Amigo</strong>
+          <span>Concurso Agrinho 2026</span>
+          <span>Protótipo educativo sem coleta de dados reais.</span>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

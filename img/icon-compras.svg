@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Compras">
+  <path d="M17 24h30l-4 26H21l-4-26Z" fill="#10B981"/>
+  <path d="M23 24c0-10 5-16 9-16s9 6 9 16" fill="none" stroke="#1E293B" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="25" cy="51" r="4" fill="#F97316"/>
+  <circle cx="43" cy="51" r="4" fill="#F97316"/>
+</svg>

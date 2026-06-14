@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Vizinho Amigo</title>
+  <desc id="desc">Sacola de compras com alcas em formato de coracao.</desc>
+  <rect width="160" height="160" rx="36" fill="#F8FAFC"/>
+  <path d="M43 58h74l-8 67H51L43 58Z" fill="#10B981"/>
+  <path d="M56 58c1-21 13-34 24-34s23 13 24 34" fill="none" stroke="#1E293B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M80 106s-28-15-28-34c0-9 7-16 16-16 5 0 10 3 12 7 2-4 7-7 12-7 9 0 16 7 16 16 0 19-28 34-28 34Z" fill="#F97316"/>
+</svg>
